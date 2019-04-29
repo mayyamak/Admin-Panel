@@ -1,0 +1,194 @@
+body {
+  color: #424242;
+}
+.skin-black .main-header .navbar .navbar-custom-menu .navbar-nav>li>a, .skin-black .main-header .navbar .navbar-right>li>a {
+  border-left-width: 0px;
+}
+.skin-black .main-header .navbar {
+  box-shadow: -5px 2px 10px 0px rgba(0, 0, 0, 0.1)
+}
+.skin-black .wrapper, .skin-black .main-sidebar, .skin-black .left-side {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.skin-black .main-header li.user-header {
+  background-color: #13c8b5;
+}
+.skin-black .sidebar a {
+    color: #424242;
+}
+.skin-black .sidebar-menu>li:hover>a {
+  color: #757575 !important;
+  background: #f1fcfa;
+}
+.skin-black .sidebar-menu>li.active>a {
+  color: #757575;
+  background: #f1fcfa;
+}
+.skin-black .sidebar-menu>li:hover>a, .skin-black .sidebar-menu>li.active>a {
+    border-left-color: #13c8b5;
+}
+.skin-black .sidebar-menu > li.header {
+  color: #000;
+  background: #d0f4f0;
+}
+.skin-black .sidebar-menu>li>.treeview-menu {
+  background: #f9fdfc;
+}
+.skin-black .sidebar-menu>li>.treeview-menu>li>a:hover {
+  color: #777 !important;
+}
+.skin-black .sidebar-menu>li>.treeview-menu>li:hover {
+  background: #f1fcfa;
+  border-left: 2px #13c8b5 solid;
+}
+.skin-black .sidebar-menu>li>.treeview-menu>li.active {
+  background: #f1fcfa;
+  border-left: 2px #13c8b5 solid;
+}
+.bg-white {
+  background-color: white;
+}
+.small-box > .small-box-footer {
+  background-color: #13c8b5;
+}
+.icon-link, .icon-link:visited, .icon-link:hover, .icon-link:active, .icon-link:focus {
+  color: #bdbdbd;
+  font-size: 0.5em;
+}
+.green-link {
+  color: #13c8b5;
+}
+.box {
+  /* border-top: 3px solid #13c8b5; */
+  border-top-color: #ddd;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+.btn-primary {
+    background-color: #13c8b5;
+    border-color: #13c8b5;
+}
+.btn-primary.active, .btn-primary.active.focus, .btn-primary.active:focus,
+.btn-primary.active:hover, .btn-primary.focus, .btn-primary:active, .btn-primary:active.focus,
+.btn-primary:active:focus, .btn-primary:active:hover, .btn-primary:focus, .btn-primary:hover,
+.open>.dropdown-toggle.btn-primary, .open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #0d7377;
+    border-color: #0d7377;
+}
+.user-box-body {
+  border-width: 0;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  background: #02a398;
+  color: #222;
+}
+
+
+.white-button {
+  margin: inherit;
+  border: 1px solid #13c8b5;
+}
+.white-button:hover, .white-button:active {
+  background: #ddd;
+}
+.white-button>i {
+  padding: 0 5px;
+  color: #13c8b5;
+}
+
+.input-form {
+  border-color: #f1f1f1 #eee #13c8b5 #eee;
+}
+.step {
+  border: 1px #ccc solid;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 10px 17px;
+  display: inline-block;
+  margin: 10px 5px;
+  cursor: pointer;
+}
+.step-active {
+  border: 1px #fff solid;
+  background: #13c8b5;
+  color: #fff;
+  cursor: default;
+}
+.facility-icon {
+  color: #13c8b5;
+  margin: -1px 5px;
+  font-size: 1.4em;
+}
+.facility-text {
+  /* color: #0d7377; */
+  padding: 5px 10px;
+}
+.change-lang {
+  font-size: 1.2em;
+  color: #13c8be !important;
+  font-weight: bold;
+}
+.bg-tripema {
+  background-color: #13c8b5;
+  color: #fff;
+}
+.fixed-box {
+  background-color: white;
+  border-top: 3px solid #757575;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+.inner-box {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+}
+.margin-top-negative {
+  margin-top: -10px;
+}
+
+.sidebar-icon {
+  margin: auto 5px;
+}
+.header-user-icon {
+  padding: 0px 10px;
+  font-size: 25px;
+  color: #757575;
+  line-height: 1px;
+  position: relative;
+  top: 5px;
+}
+.title {
+  color: #13c8b5;
+  padding: 20px;
+}
+.text {
+  padding: 20px;
+}
+/* .modal-div {
+  position: absolute;
+  top: 120px;
+  left: 30%;
+} */
+/* .icheckbox_flat-green {
+    background-position: 0 0;
+}
+    .icheckbox_flat-green.checked {
+        background-position: -22px 0;
+    }
+    .icheckbox_flat-green.disabled {
+        background-position: -44px 0;
+        cursor: default;
+    }
+    .icheckbox_flat-green.checked.disabled {
+        background-position: -66px 0;
+    } */
+
+
+@media (max-width: 767px) {
+  .skin-black .main-header>.logo {
+    background-color: #fefefe;
+  }
+}
